@@ -1,0 +1,241 @@
+body{
+    background:  #ffefd5;
+}
+.navbar-brand{
+    padding: 0 0;
+}
+/*设置图片logo的大小和位置*/
+.navbar-brand>img{
+    height: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 250px;
+}
+/*设置整个导航菜单的内边距、背景色和阴影*/
+.navbar-default{
+    padding: 1.5em 0;
+    background-color: red;
+    box-shadow: 12px -5px 39px -12px;
+}
+/*设置导航栏中菜单a链接的样式*/
+.navbar-default .navbar-nav>li a,.navbar-default1 .navbar-nav>li a  {
+    top: 10px;
+    padding: 0.5em 3em;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    color:#919191;
+}
+/*设置导航栏菜单的鼠标悬停和获取焦点时的状态*/
+.navbar-default .navbar-nav> li >a:hover,
+.navbar-default .navbar-nav> li >a:focus ,.navbar-default1.navbar-nav> li >a:hover,
+.navbar-default1 .navbar-nav> li >a:focus {
+    background:#D96B66;
+    color: white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+/*设置导航栏右侧a链接（0.00）的颜色*/
+.navbar-right>a{
+    color:#D96B66;
+}
+/*媒体查询：当视口小于970px时，导航菜单字体变小，避免了换行的问题*/
+@media (max-width: 970px) {
+    .navbar-default .navbar-nav>li a ,.navbar-default1 .navbar-nav>li a{
+        font-size: 1.1em;
+    }
+}
+.floor{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+}
+.bottom{
+    position: relative;
+    width: 100%;
+    background: #f0f0f0;
+}
+.floor img{
+    width: 30%;
+}
+.floor a,.last a{
+    color: black;
+}
+.last{
+    text-align: center;
+}
+.made{
+    background: white;
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+h2{
+    font-size: 20px;
+}
+a h3{
+    font-size: 20px;
+}
+video{
+    position: relative;
+    width: 100%;
+}
+button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    background-color: #944bc8;
+    color: white;
+}
+button:hover {
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.made{
+    padding: 3em;
+}
+#user img{
+    width: 8em;
+}
+#step img{
+    position: relative;
+    width: 8em;
+    height: 8em;
+    padding: 1em;
+}
+#step{
+    padding: 0.5em;
+    margin: 1em;
+    position: relative;
+    border-width: 1px;
+    border-radius: 1em;
+    border-color: gray;
+    border-style: solid;
+}
+#step h3{
+    font-size: 15px;
+    font-family: all;
+}
+#step h2{
+    font-size: 25px;
+}
+#step:hover{
+    background: #ffefd5;
+}
+.step{
+    position: relative;;
+    width: 80%;
+    background: white;
+    left: 10%;
+
+}
+.comment{
+    position: relative;
+    background: white;
+    width: 80%;
+    left: 10%;
+}
+.comment img{
+    width: 10em;
+}
+.header1{
+    padding: 5px 0; 
+    border-bottom: 1px solid #cecece;
+}
+.header1 span{
+    display:inline-block; 
+    width: 220px; height: 50px; 
+    color: #fff; 
+    background: #009966; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-align: center;
+    line-height: 50px; 
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.post{
+    position: absolute; 
+    background: #ffffff; 
+    border: 1px #999999 solid; 
+    width: 500px; 
+    left: 65px; 
+    top:70px; 
+    padding: 10px; 
+    font-size: 14px; 
+    z-index: 999999; 
+    display: none;
+}
+.post .title{
+    width: 450px; 
+    height:30px; 
+    line-height: 30px; 
+    display: block; 
+    border: 1px #aaaaaa solid; 
+    margin-bottom: 10px;
+}
+.post select{
+    width: 200px; 
+    height: 30px;
+}
+.post .content{
+    width: 450px; 
+    height: 200px; 
+    display: block; 
+    margin: 10px 0;
+    border: 1px #aaaaaa solid;
+}
+.post .btn{
+    width: 160px; 
+    height: 35px; 
+    color: #fff; 
+    background: #009966; 
+    border: none; 
+    font-size: 14px; 
+    font-weight: bold; 
+    text-align: center; 
+    line-height: 35px; 
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+.bbs section ul li{
+    padding: 10px 0; 
+    border-bottom: 1px #999999 dashed;
+    overflow: hidden;
+}
+.bbs section ul li div{
+    float: left; 
+    width: 60px; 
+    margin-right: 10px;
+}
+.bbs section ul li div img{ 
+    border-radius:50%; 
+    width: 60px;
+}
+.bbs section ul li h1{
+    float: left; 
+    width: 520px; 
+    font-size: 16px; 
+    line-height: 35px;
+}
+.bbs section ul li p{
+    color: #666666; 
+    line-height: 25px; 
+    font-size: 12px; 
+}
+.bbs section ul li p span{
+    padding-right:20px;
+
+}

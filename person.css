@@ -1,0 +1,416 @@
+/*µÚ7µ¥Ôª ÏîÄ¿7-2 Éç½»ÍøÕ¾¸öÈËÐÅÏ¢Ò³Ãæ CSSÎÄ¼þ*/
+*{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+ul{list-style:none;}
+body {
+    font-family: sans-serif;
+    background: url(../images/2.png)repeat 0px 0px;
+    font-size: 100%;
+    background: #ffefd5;
+}
+.navbar-brand{
+    padding: 0 0;
+}
+/*设置图片logo的大小和位置*/
+.navbar-brand>img{
+    height: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 250px;
+}
+/*设置整个导航菜单的内边距、背景色和阴影*/
+.navbar-default{
+    padding: 1.5em 0;
+    background-color: red;
+    box-shadow: 12px -5px 39px -12px;
+}
+/*设置导航栏中菜单a链接的样式*/
+.navbar-default .navbar-nav>li a,.navbar-default1 .navbar-nav>li a  {
+    top: 10px;
+    padding: 0.5em 3em;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    color:#919191;
+}
+/*设置导航栏菜单的鼠标悬停和获取焦点时的状态*/
+.navbar-default .navbar-nav> li >a:hover,
+.navbar-default .navbar-nav> li >a:focus ,.navbar-default1.navbar-nav> li >a:hover,
+.navbar-default1 .navbar-nav> li >a:focus {
+    background:#D96B66;
+    color: white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+/*设置导航栏右侧a链接（0.00）的颜色*/
+.navbar-right>a{
+    color:#D96B66;
+}
+.navbar-right a{
+    color:gray;
+}
+
+.person{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    border-style: solid;border-width: 1px;
+    border-color: gray;
+    background: white;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #3C2F24;
+    margin: 2em 0em 1em 0em;
+    font-family: 'Î¢ÈíÑÅºÚ';
+}
+.edit {
+    margin:0% auto;/*Íâ±ß¾à£ºÉÏÏÂ0£¬×óÓÒË®Æ½¾ÓÖÐ*/
+    background: #fff;
+}
+form {
+    padding: 10% 4% 8% 4%;
+}
+form li {
+    list-style: none;
+    width: 100%;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 1em 0;
+    outline: none;
+}
+
+input[type="text"] {
+    width: 83%;
+    padding:1em 0em 1em 1.7em;
+    color: #858282;
+    font-size: 15px;
+    outline: none;
+    background: white;
+    font-weight: 500;
+    border: none;
+}
+.user1 {
+    height: 20px;
+    width: 20px;
+    display: block;
+    float: left;
+    margin: 12px -17px 0px 0px;
+    border-right: 1px solid #999;
+    padding: 5px 16px 0 0;
+    background: url(../images/user.png) no-repeat 8px 2px ;
+}
+.lock1 {
+    height: 20px;
+    width: 20px;
+    display: block;
+    float: left;
+    margin: 12px -17px 0px 0px;
+    border-right: 1px solid #999;
+    padding: 5px 16px 0 0;
+    background: url(../images/lock.png) no-repeat 8px 2px ;
+}
+.submit input[type="submit"]{
+    font-size:20px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding:21px 20px;
+    width: 100%;
+    border: none;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    background: #ef8d32;
+
+}
+input[type="submit"]:hover{
+    background:#ee5a32;
+}
+/* ribbon style */
+.h2 h2 {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 7px 9px 5px 27px;
+    font-weight: 300;
+}
+/*--*/
+.icon{
+    background: url(../images/img-sprite.png);
+    width: 25px;
+    height: 23px;
+    display: inline-block;
+    float:left;
+}
+.icon {
+    background: url(../images/img-sprite.png) no-repeat -1px -2px;
+}
+
+.stat{
+    background: url(../images/img-sprite.png) no-repeat -30px -4px;
+}
+
+.msg{
+    background: url(../images/img-sprite.png) no-repeat -62px -2px;
+}
+
+.signout{
+    background: url(../images/img-sprite.png) no-repeat -93px -2px;
+}
+ul.content {
+    width: 100%;
+    margin: 0 auto;
+    background: #ef8d32;
+    font-weight: 100;
+}
+li.button a {
+    padding: 23.5px 27px;
+    margin: 0;
+    display: block;
+}
+li.button {
+    list-style: none;
+    text-align: left;
+}
+li.menu{
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #CD5F4A;
+    margin: 0;
+}
+li.menu:hover {
+    background: #ee5a32;
+}
+li.button a:hover{
+    text-decoration:none;
+}
+li.button a span{
+    margin-right: 22px;
+}
+li.menu.info {
+    border-bottom: none;
+}
+li.button i {
+    background: #505771;
+    float: right;
+    padding: 4px 12px;
+    font-size: 13px;
+    display: block;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-style: normal;/*ÉèÖÃ×ÖÌåÑùÊ½Õý³££¬ÒòÎª<i>±êÇ©±íÊ¾ÎÄ±¾×ÖÌåÎªÐ±Ìå*/
+}
+a, a:visited {
+    color:#fff;
+}
+p{
+    padding:10px;
+    text-align:center;
+}
+.element {
+    width: 60%;
+    margin: 0 auto 7em;
+    padding: 2em;
+    display: flex;    /*ÉèÖÃ¸ÃdivÎªÒ»¸öµ¯ÐÔºÐÈÝÆ÷*/
+    flex-flow: row;   /*×ÓÔªËØ°´ºáÖá·½ÏòË³ÐòÅÅÁÐ*/
+}
+.element-left {
+    margin:0 1.5%;
+    flex: 3.6 ;     /*½«ÈÝÆ÷·ÖÎª10·Ý£¬Õ¼Èý·ÖÖ®Ò»*/
+    order: 1;      /*ÅÅÐòÎªµÚ1¸ö×ÓÔªËØ*/
+}
+.element-right {
+    margin:0 1.5%;
+    flex: 3.6 ;     /*½«ÈÝÆ÷·ÖÎª10·Ý£¬Õ¼Èý·ÖÖ®Ò»*/
+    order:2;       /*ÅÅÐòÎªµÚ2¸ö×ÓÔªËØ*/
+}
+.element-last {
+    margin:5% 1.5%;
+    flex: 3.6;     /*½«ÈÝÆ÷·ÖÎª10·Ý£¬Õ¼Èý·ÖÖ®Ò»*/
+    order:3;        /*ÅÅÐòÎªµÚ3¸ö×ÓÔªËØ*/
+}
+/*--teddy-bear--*/
+.teddy-bear {
+    text-align: center;
+}
+.teddy-text {
+    background: #fff;
+    padding: 1em 1em;
+}
+
+.teddy-text h4 {
+    color: #ee5a32;
+    font-size: 1.2em;
+    margin: 0.5em 0 0;
+}
+.teddy-text img {
+    border-radius: 70px;/*±ß¿òÔ²½Ç°ë¾¶Îª70px*/
+    border: 3px solid #ee5a32;
+    padding: 8px;
+    width: 100%;
+}
+.teddy-follow {
+    background: #ef8d32;
+    padding: 0.7em 0em 0.7em 0em;
+}
+.teddy-follow li {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 49%;
+}
+.teddy-follow li h3 {
+    font-size: 0.95em;
+    color: #fff;
+    font-weight: bold;
+}
+.teddy-follow li p {
+    font-size: 0.8em;
+    color: #fff;
+}
+.teddy-follow li.folw-h {
+    border-right: 1px solid #fff;
+}
+.element-bg-img img {
+    border-radius: 6px 6px 0px 0px;
+}
+
+.temperatur h2 {
+    color: #ee5a32;
+    font-size: 3.2em;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+}
+.img-responsive{
+    width: 300px;
+}
+.clear{
+    clear:both; /*·ÛË¿ºÍ¹Ø×¢Ä£¿éÇå³ý¸¡¶¯*/
+}
+/*--Ã½Ìå²éÑ¯--*/
+@media(max-width:1366px){
+    input[type="text"], input[type="password"] {
+        padding: 1em 0em 1em 0.7em;
+    }
+    .user1 {
+        margin: 12px -3px 0px 0px;
+        padding: 5px 10px 0 0;
+    }
+    .lock1 {
+        margin: 12px -3px 0px 0px;
+        padding: 5px 10px 0 0;
+    }
+}
+@media(max-width:1280px){
+    input[type="text"], input[type="password"] {
+        width: 75%;
+    }
+}
+.element {
+    width: 82%;
+    margin: 0 auto 6em;
+}
+form {
+    padding: 12% 4% 12% 4%;
+}
+
+@media(max-width:768px){
+    .element {
+        width: 100%;
+    }
+    li.button a {
+        padding: 23.5px 16px;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+    .teddy-text h4 {
+        font-size: 1em;
+    }
+
+    li.button a {
+        padding: 22.5px 10px;
+    }
+}
+@media (max-width: 667px){
+    input[type="text"] {
+        width: 70%;
+    }
+    form {
+        padding: 3% 1% 3% 1%;
+    }
+    .teddy-text h4 {
+        font-size: 0.92em;
+    }
+}
+@media (max-width: 640px){
+    .element{
+        margin: 0 auto 2em;
+        flex-flow: column; /*µ¯ÐÔºÐÖÐµÄ×ÓÔªËØ°´×ÝÖá·½ÏòÅÅÁÐ*/
+    }
+    .element-left,.element-right,.element-last{
+        order: 0;/*½«×ÓÔªËØ¶¼ÉèÖÃ³ÉÍ¬Ò»¸öÖµ£¬Ö¸°´×ÔÈ»Ë³ÐòÅÅÁÐ*/
+        margin: 1%;
+    }
+    h1 {
+        font-size: 2em;
+        margin: 1em 0em 0.5em 0em;
+    }
+
+    form {
+        padding: 13% 13% 13% 13%;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+    ul.content {
+        width:100%;
+    }
+}
+@media (max-width: 600px){
+    input[type="text"] {
+        width: 100%;
+    }
+}
+@media (max-width: 568px){
+    input[type="text"] {
+        width: 100%;
+    }
+}
+.floor{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+}
+.bottom{
+    position: relative;
+    width: 100%;
+    background: #f0f0f0;
+}
+.floor img{
+    width: 30%;
+}
+.floor a,.last a{
+    color: black;
+}
+.last{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.bottom p{
+    position: relative;
+    padding: 0;
+}

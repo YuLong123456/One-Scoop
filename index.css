@@ -1,0 +1,155 @@
+body{
+	background: #ffefd5;
+}
+.navbar-brand{
+    padding: 0 0;
+}
+/*设置图片logo的大小和位置*/
+.navbar-brand>img{
+    height: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 250px;
+}
+/*设置整个导航菜单的内边距、背景色和阴影*/
+.navbar-default{
+    padding: 1.5em 0;
+    background-color: red;
+    box-shadow: 12px -5px 39px -12px;
+}
+/*设置导航栏中菜单a链接的样式*/
+.navbar-default .navbar-nav>li a,.navbar-default1 .navbar-nav>li a  {
+    top: 10px;
+    padding: 0.5em 3em;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    color:#919191;
+}
+/*设置导航栏菜单的鼠标悬停和获取焦点时的状态*/
+.navbar-default .navbar-nav> li >a:hover,
+.navbar-default .navbar-nav> li >a:focus ,.navbar-default1.navbar-nav> li >a:hover,
+.navbar-default1 .navbar-nav> li >a:focus {
+    background:#D96B66;
+    color: white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+/*设置导航栏右侧a链接（0.00）的颜色*/
+.navbar-right>a{
+    color:#D96B66;
+}
+/*媒体查询：当视口小于970px时，导航菜单字体变小，避免了换行的问题*/
+@media (max-width: 970px) {
+    .navbar-default .navbar-nav>li a ,.navbar-default1 .navbar-nav>li a{
+        font-size: 1.1em;
+    }
+}
+#myCarousel{
+	width: 100%;
+}
+h3{
+	text-align: center;
+}
+.new{
+	position: relative;
+	width: 80%;
+	left: 10%;
+}
+.season{
+	position: relative;
+	width: 80%;
+	left: 10%;
+	background: white;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+em{
+	color: red;
+
+}
+.effect{
+	background: green;
+	height: 35px;
+	font-size: 20px;
+	color: black;
+	padding: 5px;
+	position: relative;
+	left: -6%;
+	top: -350px;
+}
+li{
+	list-style: none;
+}
+a.more{
+	color: gray;
+	font-size: 15px;
+	text-decoration: none;
+}
+.news{
+	position: relative;
+	width: 80%;
+	left: 10%;
+	font-size: 9px;
+}
+#news1,#news2,#news3,#news4{
+	position: relative;
+	width: 95%;
+	background: white;
+	margin: 10px;
+}
+#news1 img,#news2 img,#news3 img,#news4 img{
+	width: 100%;
+}
+hr{
+	border-style: solid;
+	border-width: 1px;
+}
+.one{
+	position: relative;
+	top: 100px;
+}
+.floor{
+	position: relative;
+	left: 10%;
+	width: 80%;
+}
+.bottom{
+	position: relative;
+	width: 100%;
+	background: #f0f0f0;
+	text-align: center;
+}
+.floor img{
+	width: 30%;
+}
+.floor a,.last a{
+	color: black;
+}
+.last{
+	text-align: center;
+}
+/*.right{
+	position: relative;
+	left: 20%;
+}*/
+
+.news a:hover{
+	font-size: 15px;
+	color: black;
+}
+.gps{
+	position: relative;
+	left: 0px;
+	padding: 10px;
+	font-size: 20px;
+	width: 100px;
+}
+.gps a:hover{
+	text-decoration: underline;
+	color: red;
+}

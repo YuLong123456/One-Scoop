@@ -1,0 +1,49 @@
+body{
+	background: #ffefd5;
+}
+form{
+	background: white;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+p{
+	position: relative;
+}
+br{
+	line-height: 30px;
+}
+button{
+	background: red;
+	width: 120px;
+	height: 50px;
+}
+a{
+	text-decoration: none;
+}
+a:hover,a:focus{
+	text-decoration: underline;
+	color: red;
+}
+.tip{ 
+	position: relative;
+	top: 15px;
+ 	padding: 5px;
+ 	border-width: 1px;
+ 	border-color: red;
+ 	border-style: solid;
+ 	background: #ffdab9;
+ 	text-align: center;
+  }
+ /*.tip1{ 
+ 	position: relative;
+ 	text-align: center;
+ 	padding: 5px;
+ 	border-color: green;
+ 	border-width: 1px;
+ 	border-style: solid;
+ 	background: #b3ee3a;
+  }*/
